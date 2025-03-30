@@ -25,6 +25,9 @@ import org.springframework.web.multipart.MultipartFile;
 
 import br.com.altave.api.model.Funcionario;
 import br.com.altave.api.service.FuncionarioService;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.responses.ApiResponse;
+import io.swagger.v3.oas.annotations.responses.ApiResponses;
 
 @RestController
 @RequestMapping("/api/funcionarios")
@@ -40,11 +43,21 @@ public class FuncionarioController {
     }
 
     // Listar todos os funcionários
+    @Operation(description = "Busca todos os funcionários e retorna seus dados completos.")
+    @ApiResponses(value ={
+            @ApiResponse(responseCode = "200", description = "Lista de funcionários retornada com sucesso."),
+            @ApiResponse(responseCode = "404", description = "Nenhum funcionário encontrado.")
+    })
     @GetMapping
     public List<Funcionario> listarTodos() {
         return service.listarTodos();
     }
 
+    @Operation(description = "Busca um funcionário específico pelo ID e retorna seus dados.")
+    @ApiResponses(value ={
+        @ApiResponse(responseCode = "200", description = "Funcionário encontrado e retornado com sucesso."),
+        @ApiResponse(responseCode = "404", description = "Funcionário não encontrado.")
+    })
     // Buscar funcionário por ID
     @GetMapping("/{id}")
     public ResponseEntity<Funcionario> buscarPorId(@PathVariable Long id) {
@@ -53,12 +66,23 @@ public class FuncionarioController {
                 .orElse(ResponseEntity.notFound().build());
     }
 
+    @Operation(description = "Cria um novo funcionário com os dados fornecidos.")
+    @ApiResponses(value ={
+        @ApiResponse(responseCode = "201", description = "Funcionário criado com sucesso."),
+        @ApiResponse(responseCode = "400", description = "Dados inválidos para criação do funcionário.")
+    })
     // Criar um novo funcionário
     @PostMapping
     public Funcionario salvar(@RequestBody Funcionario funcionario) {
         return service.salvar(funcionario);
     }
 
+    @Operation(description = "Atualiza os dados de um funcionário existente pelo ID.")
+    @ApiResponses(value ={
+        @ApiResponse(responseCode = "200", description = "Funcionário atualizado com sucesso."),
+        @ApiResponse(responseCode = "404", description = "Funcionário não encontrado."),
+        @ApiResponse(responseCode = "400", description = "Dados inválidos para atualização.")
+    })
     // Atualizar um funcionário existente
     @PutMapping("/{id}")
     public ResponseEntity<Funcionario> atualizar(@PathVariable Long id, @RequestBody Funcionario funcionarioAtualizado) {
@@ -67,6 +91,11 @@ public class FuncionarioController {
                 .orElse(ResponseEntity.notFound().build());
     }
 
+    @Operation(description = "Deleta um funcionário pelo ID informado.")
+    @ApiResponses(value ={
+        @ApiResponse(responseCode = "204", description = "Funcionário deletado com sucesso."),
+        @ApiResponse(responseCode = "404", description = "Funcionário não encontrado.")
+    })
     // Deletar um funcionário
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> deletar(@PathVariable Long id) {
@@ -74,6 +103,12 @@ public class FuncionarioController {
         return ResponseEntity.noContent().build();
     }
 
+    @Operation(description = "Faz o upload da imagem de um funcionário pelo ID.")
+    @ApiResponses(value ={
+        @ApiResponse(responseCode = "200", description = "Imagem enviada com sucesso."),
+        @ApiResponse(responseCode = "404", description = "Funcionário não encontrado."),
+        @ApiResponse(responseCode = "500", description = "Erro interno ao salvar a imagem.")
+    })
     // Upload de imagem
     @PostMapping("/{id}/imagem")
     public ResponseEntity<String> uploadImagem(@PathVariable Long id, @RequestParam("file") MultipartFile file) {
@@ -88,6 +123,12 @@ public class FuncionarioController {
         }
     }
 
+    @Operation(description = "Recupera a URL da imagem de um funcionário pelo ID.")
+    @ApiResponses(value ={
+        @ApiResponse(responseCode = "200", description = "URL da imagem retornada com sucesso."),
+        @ApiResponse(responseCode = "404", description = "Nenhuma imagem encontrada para o funcionário informado."),
+        @ApiResponse(responseCode = "500", description = "Erro interno ao processar a solicitação.")
+    })
     // Recuperar a URL da imagem por ID
     @GetMapping("/{id}/imagem")
     public ResponseEntity<String> getImagem(@PathVariable Long id) {
@@ -102,6 +143,12 @@ public class FuncionarioController {
         }
     }
 
+    @Operation(description = "Retorna a imagem armazenada no servidor com base no nome do arquivo.")
+    @ApiResponses(value ={
+        @ApiResponse(responseCode = "200", description = "Imagem retornada com sucesso."),
+        @ApiResponse(responseCode = "404", description = "Imagem não encontrada."),
+        @ApiResponse(responseCode = "500", description = "Erro interno ao processar a solicitação.")
+    })
     // Servir a imagem pelo nome do arquivo
     @GetMapping("/uploads/{filename:.+}")
     public ResponseEntity<Resource> serveFile(@PathVariable String filename) {
