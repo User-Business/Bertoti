@@ -8,7 +8,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "funcionarios")
+@Table(name = "funcionario")
 public class Funcionario {
 
     @Id
@@ -25,7 +25,7 @@ public class Funcionario {
     private String empresa;
 
     @Column(nullable = true)
-    private Integer carga_horaria;
+    private Long carga_horaria;
 
     @Column(nullable = false)
     private String funcao;
@@ -39,7 +39,7 @@ public class Funcionario {
     // Construtores
     public Funcionario() {}
 
-    public Funcionario(String nome, String cpf, String empresa, Integer carga_horaria, String funcao, String email, String imagem) {
+    public Funcionario(String nome, String cpf, String empresa, Long carga_horaria, String funcao, String email, String imagem) {
         this.nome = nome;
         this.cpf = cpf;
         this.empresa = empresa;
@@ -50,7 +50,7 @@ public class Funcionario {
     }
 
     // Getters e Setters
-    public Long getId() { return id; }
+    public Long getid() { return id; }
 
     public String getNome() { return nome; }
     public void setNome(String nome) { this.nome = nome; }
@@ -61,8 +61,8 @@ public class Funcionario {
     public String getEmpresa() { return empresa; }
     public void setEmpresa(String empresa) { this.empresa = empresa; }
 
-    public Integer getCargaHoraria() { return carga_horaria; }
-    public void setCargaHoraria(Integer carga_horaria) { this.carga_horaria = carga_horaria; }
+    public Long getCargaHoraria() { return carga_horaria; }
+    public void setCargaHoraria(Long carga_horaria) { this.carga_horaria = carga_horaria; }
 
     public String getFuncao() { return funcao; }
     public void setFuncao(String funcao) { this.funcao = funcao; }
