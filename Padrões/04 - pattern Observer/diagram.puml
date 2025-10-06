@@ -1,0 +1,9 @@
+@startuml
+    title Observer
+    note as N
+
+Subject 'PedidoEventSource' mantém lista de 'PedidoObserver'.
+Observers concretos: NotificadorEmailGerente, DashboardVendas, LogAuditoria.
+
+    end note
+    @enduml

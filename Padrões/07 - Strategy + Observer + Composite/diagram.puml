@@ -1,0 +1,10 @@
+@startuml
+    title Strategy + Observer + Composite
+    note as N
+
+Composite modela o carrinho (Item/Pacote).
+Strategy calcula frete (SEDEX/PAC).
+Observer notifica quando total muda ou atinge limite.
+
+    end note
+    @enduml

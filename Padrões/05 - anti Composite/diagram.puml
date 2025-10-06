@@ -1,0 +1,9 @@
+@startuml
+    title Anti-Composite
+    note as N
+
+Pedido guarda listas separadas de Item e Pacote.
+Cliente precisa somar manualmente itens e pacotes (duplicação e ifs).
+
+    end note
+    @enduml

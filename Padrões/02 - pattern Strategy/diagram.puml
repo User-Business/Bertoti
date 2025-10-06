@@ -1,0 +1,9 @@
+@startuml
+    title Strategy
+    note as N
+
+Interface FreteStrategy; concretas: SedexFrete, PacFrete, MotoboyFrete.
+Contexto CalculadoraFrete usa um Map<String, FreteStrategy>.
+
+    end note
+    @enduml

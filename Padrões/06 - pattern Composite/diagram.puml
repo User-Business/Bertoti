@@ -1,0 +1,10 @@
+@startuml
+    title Composite
+    note as N
+
+Interface ComponentePedido com operações getPesoTotal/getPrecoTotal.
+Leaf: Item. Composite: Pacote (contém filhos ComponentePedido).
+Cliente (Pedido) trata todos de forma uniforme.
+
+    end note
+    @enduml

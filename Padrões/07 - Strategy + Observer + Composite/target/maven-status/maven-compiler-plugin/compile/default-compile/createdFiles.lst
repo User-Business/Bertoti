@@ -1,0 +1,11 @@
+br\com\exemplo\padroes\combined\strategy\PacFrete.class
+br\com\exemplo\padroes\combined\app\Pedido.class
+br\com\exemplo\padroes\combined\composite\Item.class
+br\com\exemplo\padroes\combined\observer\AlertaValorObserver.class
+br\com\exemplo\padroes\combined\observer\LoggerObserver.class
+br\com\exemplo\padroes\combined\strategy\SedexFrete.class
+br\com\exemplo\padroes\combined\composite\ComponentePedido.class
+br\com\exemplo\padroes\combined\composite\Pacote.class
+br\com\exemplo\padroes\combined\observer\PedidoObserver.class
+br\com\exemplo\padroes\combined\app\Main.class
+br\com\exemplo\padroes\combined\strategy\FreteStrategy.class

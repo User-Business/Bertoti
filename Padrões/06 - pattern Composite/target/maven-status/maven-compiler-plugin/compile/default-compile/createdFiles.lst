@@ -1,0 +1,5 @@
+br\com\exemplo\padroes\composite\Item.class
+br\com\exemplo\padroes\composite\Main.class
+br\com\exemplo\padroes\composite\Pacote.class
+br\com\exemplo\padroes\composite\Pedido.class
+br\com\exemplo\padroes\composite\ComponentePedido.class

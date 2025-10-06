@@ -1,0 +1,9 @@
+@startuml
+    title Anti-Observer
+    note as N
+
+Subject (SistemaPedidos) conhece e chama diretamente NotificadorEmailGerente,
+DashboardVendas e LogAuditoria, sem interface. Forte acoplamento.
+
+    end note
+    @enduml

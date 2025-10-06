@@ -1,0 +1,9 @@
+@startuml
+    title Anti-Strategy
+    note as N
+
+- Única classe 'CalculadoraFrete' com 'if/else' por string (SEDEX, PAC, MOTO)
+- Viola OCP; difícil de testar; forte acoplamento
+
+    end note
+    @enduml
