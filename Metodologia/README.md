@@ -21,8 +21,7 @@ Sou uma pessoa curiosa, organizada e comunicativa. Acredito que a tecnologia con
 
 ## 📬 Contatos
 
-[![GitHub](https://img.shields.io/badge/GitHub-24292E?style=for-the-badge&logo=github&logoColor=white)]
-(https://github.com/User-Business)
+[![GitHub](https://img.shields.io/badge/GitHub-24292E?style=for-the-badge&logo=github&logoColor=white)](https://github.com/User-Business)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/caio-o-a67224200/)
 
 ---
@@ -152,3 +151,4 @@ Padronizei chamadas, tratei respostas e melhorei a experiência de uso entre os 
 📌 *Este repositório continuará sendo atualizado conforme minha evolução.*
 
 ✨ Obrigado por visitar! 😄
+
