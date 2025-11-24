@@ -52,57 +52,53 @@ Tecnologias aplicadas:
 
 🔗 Repositório:  
 👉 https://github.com/DenariusData/API-3SEM
-
----
 ### 🧱 Minhas Contribuições
 
 Durante o desenvolvimento do projeto, atuei de forma ativa tanto na arquitetura técnica quanto na organização estrutural do repositório e da documentação. Minhas principais contribuições incluem:
 
+---
+
 ### 📄 Padronização dos READMEs
 
-Criei e padronizei os arquivos README do Main, Backend, Frontend e da Documentação.
+- Criei e padronizei os arquivos README do **Main**, **Backend**, **Frontend** e da **Documentação**.
+- Estruturei todo o conteúdo para melhorar a navegação, entendimento e experiência de onboarding.
+- Apliquei boas práticas como:
+  - Estruturação clara por seções  
+  - Conteúdo direto e objetivo  
+  - Links internos entre módulos  
+- O resultado foi uma comunicação técnica mais eficiente e maior alinhamento entre o time.
 
-Estruturei todo o conteúdo para melhorar a navegação, entendimento e experiência de onboarding.
-
-Apliquei boas práticas como:
-
-Estruturação clara por seções
-
-Conteúdo direto e objetivo
-
-Links internos entre módulos
-
-O resultado foi uma comunicação técnica mais eficiente e alinhamento entre todo o time.
+---
 
 ### 🗂️ Mapeamento e Estruturação da Arquitetura MVC
 
-Realizei o mapeamento das entidades do sistema.
+- Realizei o **mapeamento das entidades** do sistema.  
+- Desenvolvi **Controllers**, **Services** e **Repositories**, estabelecendo todo o padrão **MVC** no backend.  
+- Garanti organização, consistência e escalabilidade na arquitetura Java/Spring Boot.
 
-Desenvolvi Controllers, Services e Repositories, estabelecendo todo o padrão MVC do backend.
-
-Garanti organização, consistência e escalabilidade na arquitetura Java/Spring Boot.
+---
 
 ### 🤖 Integração de IA com Ollama4j
 
-Integrei o Ollama4j ao projeto para permitir o uso de modelos do Hugging Face diretamente no Java.
+- Integrei o **Ollama4j** ao projeto para possibilitar o uso de modelos do **Hugging Face** diretamente no Java.  
+- Estruturei a comunicação backend ↔ IA, permitindo o consumo de respostas inteligentes de forma eficiente.
 
-Estruturei a comunicação backend–modelo de IA, possibilitando o consumo de respostas inteligentes dentro da aplicação.
+---
 
 ### 💬 Desenvolvimento do Frontend do Chat + Integração com IA
 
-Desenvolvi o frontend completo do chat, com interface intuitiva e fluida.
+- Desenvolvi o **frontend completo do chat**, com interface dinâmica e intuitiva.  
+- Realizei a integração com o backend do modelo de IA por meio de chamadas seguras e otimizadas.  
+- Estruturei o fluxo de requisição e resposta em tempo real entre front e backend.
 
-Conectei o chat ao backend do modelo de IA utilizando chamadas otimizadas e seguras.
-
-Estruturei os fluxos de requisições e resposta em tempo real entre front e backend.
+---
 
 ### 🔗 Integração API Front → Back
 
-Implementei diversas conexões do frontend consumindo a API do backend.
+- Implementei diversas conexões do **frontend consumindo a API do backend**.  
+- Criei funções reutilizáveis no front para consumir endpoints com eficiência.  
+- Padronizei chamadas, tratei respostas e melhorei a experiência entre os módulos da aplicação.
 
-Criei funções reutilizáveis no front para consumir endpoints do backend de forma eficiente.
-
-Padronizei chamadas, tratei respostas e melhorei a experiência de uso entre os módulos.
 
 ### 🔍 Testes e Validação
 - Participei da validação final do sistema, comparando:
@@ -123,32 +119,46 @@ Padronizei chamadas, tratei respostas e melhorei a experiência de uso entre os 
 
 
 ---
-
 ## 💻 Hard Skills
 
-| Habilidade | Aplicação |
-|-----------|-----------|
-| Spring Boot | Controllers, Services, DTOs, validações e boas práticas |
-| SQL (MySQL/PostgreSQL) | Modelagem, consultas, relacionamentos e normalização |
-| Vue.js + TypeScript | Desenvolvimento de telas dinâmicas integradas à API |
-| Git/GitHub | Branching, commits semânticos e revisão de código |
-| Arquitetura | Integração entre camadas e organização escalável |
+### 🔧 Spring Boot  
+Atuo no desenvolvimento backend utilizando Spring Boot, criando **Controllers**, **Services**, **DTOs**, validações e aplicando boas práticas de arquitetura. Trabalho com padronização de rotas, tratamento de erros e organização da camada de negócio.
+
+### 🗄️ SQL (MySQL / PostgreSQL)  
+Tenho experiência com **modelagem de banco**, criação de **consultas eficientes**, definição de relacionamentos e normalização das tabelas. Também realizo análises de desempenho e ajustes em queries.
+
+### 🌐 Vue.js + TypeScript  
+Desenvolvo interfaces dinâmicas utilizando Vue.js com TypeScript, garantindo integração fluida com a API. Crio componentes reutilizáveis, formulários, interações e lógica de consumo de dados do backend.
+
+### 🔀 Git / GitHub  
+Utilizo Git de forma organizada com branching estruturado, commits semânticos e participação ativa em revisões de código. Ajudo a manter o fluxo de versionamento limpo e colaborativo.
+
+### 🏗️ Arquitetura de Software  
+Tenho domínio na integração entre camadas (frontend, backend e banco), construindo soluções escaláveis e bem organizadas. Busco sempre manter separação clara de responsabilidades e padrões consistentes.
 
 ---
 
 ## 🤝 Soft Skills
 
-| Competência | Aplicação |
-|------------|-----------|
-| Trabalho em Equipe | Desenvolvimento colaborativo com versionamento |
-| Comunicação | Alinhamento técnico e documentação clara |
-| Organização | Uso de Scrum/Kanban e priorização de tarefas |
-| Resolução de Problemas | Debug, análise e propostas eficientes |
-| Aprendizado Contínuo | Estudos constantes e adaptação de práticas |
+### 👥 Trabalho em Equipe  
+Participo de forma colaborativa no desenvolvimento, mantendo alinhamento com o time por meio de versionamento, reuniões e divisão clara de responsabilidades.
+
+### 🗣️ Comunicação  
+Prezo por comunicação objetiva, seja para documentar, descrever features, reportar problemas ou alinhar decisões técnicas com a equipe.
+
+### 📌 Organização  
+Utilizo metodologias como **Scrum** e **Kanban** para priorizar tarefas, manter entregas organizadas e garantir previsibilidade no desenvolvimento.
+
+### 🛠️ Resolução de Problemas  
+Tenho facilidade em depurar erros, analisar causas e propor soluções eficientes — sempre buscando equilíbrio entre velocidade e qualidade.
+
+### 📚 Aprendizado Contínuo  
+Estou constantemente estudando novas ferramentas, padrões e práticas para aprimorar meu trabalho e acompanhar as demandas do projeto e do mercado.
 
 ---
 
 📌 *Este repositório continuará sendo atualizado conforme minha evolução.*
 
 ✨ Obrigado por visitar! 😄
+
 
