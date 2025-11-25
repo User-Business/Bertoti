@@ -58,17 +58,7 @@ Durante o desenvolvimento do projeto, atuei de forma ativa tanto na arquitetura 
 
 ---
 
-### 📄 Padronização dos READMEs
 
-- Criei e padronizei os arquivos README do **Main**, **Backend**, **Frontend** e da **Documentação**.
-- Estruturei todo o conteúdo para melhorar a navegação, entendimento e experiência de onboarding.
-- Apliquei boas práticas como:
-  - Estruturação clara por seções  
-  - Conteúdo direto e objetivo  
-  - Links internos entre módulos  
-- O resultado foi uma comunicação técnica mais eficiente e maior alinhamento entre o time.
-
----
 
 ### 🗂️ Mapeamento e Estruturação da Arquitetura MVC
 
@@ -120,45 +110,56 @@ Durante o desenvolvimento do projeto, atuei de forma ativa tanto na arquitetura 
 
 ---
 ## 💻 Hard Skills
-
 ### 🔧 Spring Boot  
-Atuo no desenvolvimento backend utilizando Spring Boot, criando **Controllers**, **Services**, **DTOs**, validações e aplicando boas práticas de arquitetura. Trabalho com padronização de rotas, tratamento de erros e organização da camada de negócio.
+- Atuo no desenvolvimento backend com Spring Boot, implementando **Controllers**, **Services**, **DTOs** e regras de validação.  
+- Sigo padrões de arquitetura, organizo a estrutura das camadas e garanto um fluxo consistente de requisições e respostas.
 
-### 🗄️ SQL (MySQL / PostgreSQL)  
-Tenho experiência com **modelagem de banco**, criação de **consultas eficientes**, definição de relacionamentos e normalização das tabelas. Também realizo análises de desempenho e ajustes em queries.
+### 🗄️ SQL (MySQL / SQLServer)  
+- Experiência em **modelagem de dados**, criação de **queries otimizadas** e definição de relacionamentos.  
+- Realizo normalização, análises de desempenho e ajustes para melhorar integridade e performance.
 
 ### 🌐 Vue.js + TypeScript  
-Desenvolvo interfaces dinâmicas utilizando Vue.js com TypeScript, garantindo integração fluida com a API. Crio componentes reutilizáveis, formulários, interações e lógica de consumo de dados do backend.
+- Desenvolvimento de interfaces modernas com Vue.js + TypeScript.  
+- Criação de componentes reutilizáveis, formulários dinâmicos e integração direta com APIs do backend.
 
 ### 🔀 Git / GitHub  
-Utilizo Git de forma organizada com branching estruturado, commits semânticos e participação ativa em revisões de código. Ajudo a manter o fluxo de versionamento limpo e colaborativo.
+- Uso organizado de Git, com branches estruturados e commits semânticos.  
+- Participação ativa em revisões de código e manutenção de um fluxo colaborativo de versionamento.
 
 ### 🏗️ Arquitetura de Software  
-Tenho domínio na integração entre camadas (frontend, backend e banco), construindo soluções escaláveis e bem organizadas. Busco sempre manter separação clara de responsabilidades e padrões consistentes.
+- Forte atuação na integração entre frontend, backend e banco de dados.  
+- Construção de soluções escaláveis, com separação clara de responsabilidades e padrões bem definidos.
 
 ---
 
 ## 🤝 Soft Skills
 
 ### 👥 Trabalho em Equipe  
-Participo de forma colaborativa no desenvolvimento, mantendo alinhamento com o time por meio de versionamento, reuniões e divisão clara de responsabilidades.
+- Atuação colaborativa, contribuindo de forma ativa para o desenvolvimento coletivo.  
+- Alinhamento constante com o time para decisões e direcionamento das tarefas.
 
 ### 🗣️ Comunicação  
-Prezo por comunicação objetiva, seja para documentar, descrever features, reportar problemas ou alinhar decisões técnicas com a equipe.
+- Comunicação clara e objetiva, seja ao documentar, explicar features ou alinhar questões técnicas.  
+- Facilidade em transmitir informações de forma acessível e eficiente.
 
 ### 📌 Organização  
-Utilizo metodologias como **Scrum** e **Kanban** para priorizar tarefas, manter entregas organizadas e garantir previsibilidade no desenvolvimento.
+- Utilização de metodologias como **Scrum** e **Kanban** para organizar e priorizar demandas.  
+- Foco em manter entregas consistentes e bem planejadas.
 
 ### 🛠️ Resolução de Problemas  
-Tenho facilidade em depurar erros, analisar causas e propor soluções eficientes — sempre buscando equilíbrio entre velocidade e qualidade.
+- Habilidade em identificar causas, depurar erros e criar soluções práticas e eficazes.  
+- Equilíbrio entre velocidade na entrega e qualidade técnica.
 
 ### 📚 Aprendizado Contínuo  
-Estou constantemente estudando novas ferramentas, padrões e práticas para aprimorar meu trabalho e acompanhar as demandas do projeto e do mercado.
+- Busca constante por novos conhecimentos e práticas modernas.  
+- Adaptação rápida a novas ferramentas, técnicas e tecnologias do mercado.
+
 
 ---
 
 📌 *Este repositório continuará sendo atualizado conforme minha evolução.*
 
 ✨ Obrigado por visitar! 😄
+
 
 
