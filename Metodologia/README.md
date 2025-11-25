@@ -135,24 +135,22 @@ Durante o desenvolvimento do projeto, atuei de forma ativa tanto na arquitetura 
 ## 🤝 Soft Skills
 
 ### 👥 Trabalho em Equipe  
-- Atuação colaborativa, contribuindo de forma ativa para o desenvolvimento coletivo.  
-- Alinhamento constante com o time para decisões e direcionamento das tarefas.
+- Auxiliei o Rafael Slivka e a Beatriz a entenderem como obter os repositórios direto do git através da linha de comando.  
+- Ensinei ao meu time como obter os dados do backend consumindo direto do endpoint, criando funções no frontend para isso.
 
 ### 🗣️ Comunicação  
-- Comunicação clara e objetiva, seja ao documentar, explicar features ou alinhar questões técnicas.  
-- Facilidade em transmitir informações de forma acessível e eficiente.
+- Durante as aulas eu procurava encontrar minha equipe diariamente para entendermos como estávamos em relação ao andamento do projeto.  
+- Através do Whatsapp eu buscava manter minha equipe informada da situação em que eu me encontrava em termos de dificuldade e entender a situação deles também.
 
 ### 📌 Organização  
-- Utilização de metodologias como **Scrum** e **Kanban** para organizar e priorizar demandas.  
-- Foco em manter entregas consistentes e bem planejadas.
+- Utilização de metodologias como **Scrum** e **Kanban** para organizar e priorizar demandas dos tickets criados que saíram diretamente do backlog do produto .  
+- Foco em manter entregas consistentes e bem planejadas utilizando o jira para ver o andamento dos nossos tickets.
 
 ### 🛠️ Resolução de Problemas  
-- Habilidade em identificar causas, depurar erros e criar soluções práticas e eficazes.  
-- Equilíbrio entre velocidade na entrega e qualidade técnica.
+- Resolução do problema onde a função que puxava todos os funcionários existentes não estava funcionando, descobri que era por conta de uma estrutura que estava mal formatada, arrumei e o problema foi solucionado.  
 
-### 📚 Aprendizado Contínuo  
-- Busca constante por novos conhecimentos e práticas modernas.  
-- Adaptação rápida a novas ferramentas, técnicas e tecnologias do mercado.
+### 📚 Aprendizado Contínuo 
+- No início do projeto não tinha tido contato com Spring-Boot antes, porém ao analisar a documentação e através dos cursos da udemy consegui aplicar os conceitos e as práticas necessárias para rodar o projeto
 
 
 ---
@@ -160,6 +158,7 @@ Durante o desenvolvimento do projeto, atuei de forma ativa tanto na arquitetura 
 📌 *Este repositório continuará sendo atualizado conforme minha evolução.*
 
 ✨ Obrigado por visitar! 😄
+
 
 
 
