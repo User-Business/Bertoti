@@ -2,7 +2,8 @@
   <body>
      <table align="center">
      <tr>
-      <p align="center"><img src="" width=75%></img></p>
+      <p align="center">    <img width="1300" height="600" alt="Img0" src="https://github.com/user-attachments/assets/92f6d5ab-6019-4d79-8b8c-28d3b51c4fd0" />
+</p>
      </tr>
     </table>
 
@@ -73,7 +74,11 @@
   <p align="justify">Como Product Owner, fui responsável pelo contato direto com o cliente interno (Prof. Giuliano Bertoti) e pelo planejamento e priorização do <b>Product Backlog</b>, garantindo que as entregas de cada Sprint estivessem alinhadas com as expectativas e necessidades do cliente.</p>
   <p align="justify">Conduzi o levantamento de requisitos junto ao cliente, identificando as principais dores — como a dependência de conhecimento técnico para consultar informações em documentos — e traduzi essas necessidades em <b>User Stories</b> claras e priorizadas para o time de desenvolvimento.</p>
   <p align="justify">Fui responsável pela validação das entregas de cada Sprint junto ao cliente durante as <b>Sprint Reviews</b>, coletando feedbacks e ajustando o backlog para as sprints seguintes, garantindo a melhoria contínua do produto.</p>
-  <p align="center"><img style="border-radius: 50%" src="" width="50%"></p>
+  <p align="center">       
+
+https://github.com/user-attachments/assets/f74c2678-468a-4d8a-b10a-170e2c37b940
+
+</p>
   <p align="justify">Como Dev Team, contribuí ativamente no desenvolvimento da <b>interface gráfica em Java</b>, construindo a tela de chat onde o usuário interage com o sistema, incluindo o layout, a navegação, o campo de upload de PDF e o tratamento de erros visuais.</p>
   <p align="justify">Participei da <b>criação dos protótipos no Figma</b>, definindo o fluxo de navegação e a experiência visual da aplicação antes da implementação.</p>
   <p align="justify">Atuei na definição da <b>arquitetura de comunicação entre o módulo de NLP (Ollama4j/Mistral) e o banco de dados MySQL</b>, garantindo que a pergunta do usuário fosse corretamente processada pelo modelo de linguagem e que a resposta fosse transformada em linguagem natural de volta.</p>
