@@ -34,17 +34,6 @@
         A partir dos objetivos propostos, a plataforma foi dividida em quatro módulos principais: <b>gestão de usuários</b>, <b>gestão de pesquisas</b>, <b>respostas e avaliações</b> e <b>dashboards</b>.</br>
         No módulo de <b>gestão de usuários</b>, o Admin pode cadastrar, visualizar, editar e remover usuários, atribuindo os perfis corretos de acesso. No módulo de <b>gestão de pesquisas</b>, o Admin cria e gerencia pesquisas de autoavaliação e avaliação com até 20 perguntas organizadas por categorias. O módulo de <b>respostas e avaliações</b> permite que Líderes e Liderados respondam às pesquisas de forma estruturada. Já o módulo de <b>dashboards</b> apresenta visualizações personalizadas por perfil — autoavaliação pessoal, visão do Líder sobre seus liderados e visão gerencial para o Admin — com filtros por data e categoria e a possibilidade de download em PDF.
         </p>
-        <details>
-        <summary><b>Interface da Aplicação</b></summary>
-        <br>
-        <table aling="center">
-          <tr>
-            <td align="center"><img style="border-radius: 50%;" src="" widht="50%" alt="Tela de Login"/></td>
-            <td align="center"><img style="border-radius: 50%;" src="" widht="50%" alt="Gestão de Pesquisas"/></td>
-            <td align="center"><img style="border-radius: 50%;" src="" widht="50%" alt="Dashboard"/></td>
-          </tr>
-        </table>
-        </details>
   </ol>
   <ol start="2"> 
     <h3><li><b>Tecnologias Utilizadas</b></li></h3>
@@ -70,7 +59,11 @@
   <p align="justify">Como Product Owner, fui responsável pelo contato direto com a empresa parceira e pelo planejamento e priorização do <b>Product Backlog</b>, garantindo que as entregas de cada Sprint estivessem alinhadas com as expectativas e necessidades do cliente.</p>
   <p align="justify">Conduzi o levantamento de requisitos junto ao cliente, identificando as principais dores — como a falta de um processo estruturado de feedback e a dificuldade em medir o clima organizacional — e traduzi essas necessidades em <b>User Stories</b> claras e priorizadas para o time de desenvolvimento.</p>
   <p align="justify">Fui responsável pela validação das entregas de cada Sprint junto ao cliente durante as <b>Sprint Reviews</b>, coletando feedbacks e ajustando o backlog para as sprints seguintes. A priorização foi realizada considerando o valor de negócio de cada funcionalidade, partindo do cadastro de usuários e perfis (Sprint 1) até os dashboards com filtros e exportação em PDF (Sprint 4).</p>
-  <p align="center"><img style="border-radius: 50%" src="" width="50%"></p>
+  <p align="center">   
+
+https://github.com/user-attachments/assets/7308c544-77d3-4718-8719-0bd18f1d308e
+
+</p>
   <p align="justify">Como Dev Team, contribuí ativamente no desenvolvimento front-end da aplicação utilizando <b>TypeScript e React</b>, construindo componentes reutilizáveis para as telas de cadastro, login, gerenciamento de usuários e pesquisas.</p>
   <p align="justify">Participei do desenvolvimento das telas de <b>cadastro e edição de usuários</b>, implementando a lógica de perfis diferenciados (Admin, Líder, Liderado) e as permissões de acesso correspondentes a cada perfil.</p>
   <p align="justify">Atuei na construção do módulo de <b>criação e gerenciamento de pesquisas</b>, desenvolvendo a interface para cadastro de perguntas com diferentes formatos (texto longo, escolha única, múltipla escolha) e a organização por categorias.</p>
