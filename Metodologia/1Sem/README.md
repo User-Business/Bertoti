@@ -1,8 +1,8 @@
-<html>
+
   <body>
      <table align="center">
      <tr>
-      <p align="center"><img src="" width=75%></img></p>
+      <p align="center"><img width="1300" height="600" alt="Img0" src="https://github.com/user-attachments/assets/6feaa2cc-b611-424f-afb0-6609fafffa97"/>
      </tr>
     </table>
 
@@ -68,7 +68,11 @@
   <p align="justify">Como Scrum Master, fui responsável por facilitar todas as cerimônias do Scrum — <b>Sprint Planning</b>, <b>Daily Meetings</b>, <b>Sprint Review</b> e <b>Sprint Retrospective</b> — garantindo que a equipe seguisse o framework de forma disciplinada e produtiva ao longo das 4 Sprints.</p>
   <p align="justify">Atuei diretamente na remoção de impedimentos que bloqueavam o progresso do time, mediando conflitos, esclarecendo dúvidas técnicas e mantendo a comunicação fluida entre todos os membros da equipe e o Product Owner.</p>
   <p align="justify">Fui responsável pelo acompanhamento e controle do <b>Sprint Backlog</b>, garantindo que as tarefas estivessem bem distribuídas entre os membros do time e que as entregas fossem realizadas dentro do prazo de cada Sprint. Monitorei a velocidade da equipe e promovi a melhoria contínua por meio das retrospectivas, levantando pontos positivos, negativos e ações de melhoria para as sprints seguintes.</p>
-  <p align="center"><img style="border-radius: 50%" src="" width="50%"></p>
+  <p align="center">
+
+https://github.com/user-attachments/assets/f74135e0-d489-4719-bab4-998f275b70a3
+
+</p>
   <p align="justify">Como Dev Team, contribuí ativamente no desenvolvimento front-end da aplicação, trabalhando com <b>HTML e CSS</b> na construção e estilização das páginas do site sobre a metodologia Scrum.</p>
   <p align="justify">Participei da implementação das rotas com <b>Flask</b>, realizando a integração entre as páginas e a padronização do layout com templates reutilizáveis para cabeçalho e rodapé.</p>
   <p align="justify">Atuei na estilização responsiva com <b>Bootstrap</b>, customizando componentes para garantir que o site funcionasse adequadamente em diferentes resoluções e dispositivos.</p>
